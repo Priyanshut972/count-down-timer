@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Event Countdown Timer</h1>
+        <div class="countdown">
+            <div>
+                <span id="days">00</span>
+                <div class="text">Days</div>
+            </div>
+            <div>
+                <span id="hours">00</span>
+                <div class="text">Hours</div>
+            </div>
+            <div>
+                <span id="minutes">00</span>
+                <div class="text">Minutes</div>
+            </div>
+            <div>
+                <span id="seconds">00</span>
+                <div class="text">Seconds</div>
+            </div>
+        </div>
+        <div class="event-date">
+            <p>Counting down to: <span id="target-date">June 30, 2025 23:59:59</span></p>
+        </div>
+        <div class="controls">
+            <input type="datetime-local" id="date-input">
+            <button id="set-btn">Set New Date</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
