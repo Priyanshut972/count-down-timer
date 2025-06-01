@@ -1,4 +1,4 @@
-# Project 1: Countdown Timer
+# Project: Countdown Timer
 
 A responsive countdown timer that displays the remaining time until a specified date. Users can set custom target dates.
 
