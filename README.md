@@ -2,6 +2,8 @@
 
 A responsive countdown timer that displays the remaining time until a specified date. Users can set custom target dates.
 
+https://github.com/user-attachments/assets/85b83c4e-459b-4d80-b9d8-2688588893ea
+
 # Features
 Real-time countdown display (days, hours, minutes, seconds)
 Custom date selection
